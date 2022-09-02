@@ -1,0 +1,11 @@
+.main {
+  top: 5em;
+  left: 10em;
+  height: calc(100% - 5em);
+  width: calc(100% - 10em);
+  min-height: calc(100% - 5em);
+  min-width: calc(100% - 10em);
+  max-height: calc(100% - 5em);
+  max-width: calc(100% - 10em);
+  position: relative;
+}
