@@ -2,8 +2,39 @@
   position: fixed;
   font-size: 16px;
   height: calc(100% - 5em);
-  top: 5em;
+  top: 3em;
   left: 0;
-  width: 10em;
-  background-color: beige;
+  width: 15em;
+  background-color: whitesmoke;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  column-gap: 1em;
+  align-items: center;
+}
+.react-datepicker {
+  border: 0px;
+  color: #222;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif !important;
+  margin-top: 1em;
+  background-color: whitesmoke !important;
+  border: 0px !important;
+}
+abbr[title] {
+  text-decoration: none;
+}
+
+.create-btn {
+  height: 3em;
+
+  border-radius: 10%;
+  border-width: 1px;
+  border-color: azure;
+  cursor: pointer;
+}
+.create-btn-content {
+  display: flex;
+  column-gap: 0.5em;
+  align-items: center;
 }

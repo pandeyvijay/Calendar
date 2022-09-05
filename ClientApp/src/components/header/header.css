@@ -1,8 +1,50 @@
 .header {
   position: fixed;
   font-size: 16px;
-  height: 5em;
+  height: 3em;
   top: 0;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+.header-middle-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-right-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+
+.nav-icon {
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+  border-width: 0;
+  cursor: pointer;
+}
+.nav-icon:hover {
+  background-color: lightgray;
+}
+.cur-date {
+  font-size: 130%;
+  margin-left: 1em;
+}
+.drop-btn {
+  display: inline-block;
 }
