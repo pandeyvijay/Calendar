@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 .header-left-section {
@@ -30,7 +31,6 @@
   margin-right: 0.5em;
 }
 
-
 .nav-icon {
   height: 2em;
   width: 2em;
@@ -44,7 +44,4 @@
 .cur-date {
   font-size: 130%;
   margin-left: 1em;
-}
-.drop-btn {
-  display: inline-block;
 }

@@ -1,10 +1,14 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-
-import { MdArrowDropDown } from "react-icons/md";
 import "./header.css";
 import HeaderNavigation from "./HeaderNavigation";
+import DropDown from "../../controls/dropdown";
 function Header() {
+  const spanDDData = [
+    { id: "day", value: "Day" },
+    { id: "week", value: "Week" },
+    { id: "month", value: "Month" },
+  ];
   return (
     <div className="header">
       <div className="header-left-section">
@@ -17,9 +21,7 @@ function Header() {
       </div>
       <HeaderNavigation />
       <div className="header-right-section">
-        <button className="btn drop-btn">
-          Day <MdArrowDropDown />
-        </button>
+        <DropDown data={spanDDData} onChange={(value) => alert(value)} />
       </div>
     </div>
   );

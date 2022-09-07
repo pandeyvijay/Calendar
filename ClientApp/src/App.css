@@ -42,7 +42,7 @@ body {
   background-color: lightgray;
 }
 .grid-header-left {
-  width: 4em;
+  width: 50px;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
   text-align: center;
@@ -56,7 +56,7 @@ body {
   padding: 0.2em;
 }
 .grid-time {
-  width: 4em;
+  width: 50px;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
   text-align: center;
@@ -65,4 +65,29 @@ body {
   justify-content: center;
   display: flex;
   align-items: end;
+}
+.tile {
+  height: 102px;
+  width: 60px;
+  position: absolute;
+  background-color: red;
+  left: 60px;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+  padding: 3px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.drop-btn {
+  display: inline-block;
+}
+.drop-down-modal {
+  position: absolute;
+  background-color: lightgray;
+  z-index: 1000;
+  opacity: 1;
+  padding: 5px;
+  display: none;
+  cursor: pointer;
 }
